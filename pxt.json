@@ -1,0 +1,24 @@
+{
+    "name": "Real Time Clock 7 Segment",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "DS3231": "github:alexandrefrolov/ds3231#c1051c99372995777507ea01e1ed150e609d4337",
+        "TM1637": "github:makecode-extensions/tm1637#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
